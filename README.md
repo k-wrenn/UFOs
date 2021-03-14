@@ -8,17 +8,24 @@ Software: JavaScript, HTML, CSS, Chrome, VSCode
 
 ## Results
 ### How to perform a search:
-    1. First, open the index.html file in chrome. It should bring the user to the page seen below:
-    ![Full](static/images/Full.png)
+   1. First, open the index.html file in chrome. It should bring the user to the page seen below:
+    ![Full](static/images/Full.PNG)
+    
 
-    2. Scroll down, and the user will find the Filter Search area. Here, the user will be able to enter a date, city, state, country, or shape. The user can enter as many filters as desired. (The prefilled text in the filter boxes are simply place holders to provide the user wtih the proper syntax for each filter)
-    ![Filter](static/images/Filter.png)
+   2. Scroll down, and the user will find the Filter Search area. Here, the user will be able to enter a date, city, state, country, or shape. The user can enter as many filters as desired. (The prefilled text in the filter boxes are simply place holders to provide the user wtih the proper syntax for each filter)
 
-    3. Once the user hits "Enter", the table will be filtered by the serach criteria. For example purposes, San Diego, ca was entered and the results are shown below.
-    ![Applied](static/images/Applied.png)
 
-    4. To conduct a new search the user can either refresh the page or click on "UFO Sightings" in the upper right hand corner of the page (underlined below)
+   ![Filter](static/images/Filter.PNG)
+    
+   
+
+   3. Once the user hits "Enter", the table will be filtered by the serach criteria. For example purposes, "san diego" and "ca" were entered and the results are shown below.
+    ![Applied](static/images/Applied.PNG)
+
+
+   4. To conduct a new search, the user can either refresh the page or click on "UFO Sightings" in the upper right hand corner of the page (underlined below)
     ![Refresh](static/images/Refresh.png)
+    
 ## Summary
 One drawback of the webpage is that filters are case sensitive. For example if the user were to enter "CA" instead of "ca" the search would yield no results. Making the filters not case sensitive could improve user experience.
 
